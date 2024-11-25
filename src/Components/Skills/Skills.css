@@ -1,0 +1,181 @@
+.skills{
+
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+}
+
+
+
+.overlay-skills{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+
+.skill-content{
+     
+     display: flex; 
+     position: absolute;
+     justify-content: space-between;
+     top: 130px;
+     margin: 0px 100px;
+}
+
+.skill-left img{
+
+    height: 250px;
+    width: 300px;
+    margin-left: 100px;
+     
+
+}
+
+.skills-right{
+     
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 150px;
+    
+}
+
+.skill-title{
+     
+     font-size: 2.4rem;
+     font-weight: 650;
+}
+
+.skills-right p{
+
+     font-size: 1.3rem;
+     font-weight: 500;
+}
+
+.center{
+     
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+.skill-bottom{
+     
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    position: absolute;
+    border:3px solid white;
+    width: 1100px;
+    top: 420px;
+    cursor: pointer;
+    height: 290px;
+    align-items: center;
+    transition: 0.4s;
+    box-shadow: 0 0 20px #aad8eb;
+
+}
+
+.skill-bottom:hover{
+      
+     transform: scale(1.03);
+     
+}
+
+.tech{
+     
+    font-size: 2.5rem;
+    align-items: center;
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.technica-skills{
+     
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+    
+}
+
+.technical-skill{
+     
+     display: flex;
+     font-size: 1.1rem;
+     gap: 0px;
+
+}
+
+
+
+@media (max-width:768px){
+
+      .skill-left{
+           
+           display: none;
+      }
+
+      .skill-title{
+           
+          font-size: 1.9rem;
+
+      }
+
+      .skill-content{
+           
+           margin-left: -110px;
+           margin-top: -50px;
+      }
+
+      .skills-right{
+           
+           width: 330px;
+      }
+
+      .skills-right p{
+           
+           font-size: 1.1rem;
+      }
+
+      .skill-bottom{
+           
+          width: 330px;
+          height: 350px;
+          margin-left: -170px;
+      }
+
+      .tech{
+           
+          font-size: 1.6rem;
+      }
+
+      .technical-skill{
+           
+          font-size: 1rem;
+          margin-left: 17px;
+      }
+
+
+      
+
+}
+
+
+
+
+
+
+
+
+
+  
+ 

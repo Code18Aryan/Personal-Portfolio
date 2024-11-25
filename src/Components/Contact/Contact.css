@@ -1,0 +1,237 @@
+.contact{
+     
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+     width: 100%; 
+     justify-content: center;
+     font-weight: 400;
+}
+
+
+.overlay-contact{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+
+.contact-title{
+      
+     font-size: 3.2rem;
+     position: absolute;
+     align-items: center;
+     margin-left: 600px;
+     top: 120px;
+     font-weight: 550;
+     
+}  
+
+.contact-details{
+      
+     position: absolute;
+     display: flex;
+     top: 240px;
+     margin: 0px 100px;
+     
+     
+}
+
+.contact-left{
+      
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+}
+
+.contact-left h1{
+      
+      font-size: 2.7rem;
+      font-weight: 600;
+      
+}
+
+.job-title{
+      
+      align-items: center;
+      font-size: 1.2rem;
+}
+
+.contact-left-details{
+
+     display:flex;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.contact-left-detail{
+      
+     display: flex;
+     gap: 30px;
+     font-size: 1.2rem;
+}
+
+.contact-right{
+     
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     gap: 20px;
+     
+     
+ }
+ 
+ .contact-right label{
+      
+     color:white;
+     font-size: 1.2rem;
+     font-weight: 600;
+ 
+ }
+ 
+ .contact-right input{
+      
+     border: none;
+     width: 500px;
+     height: 40px;
+     font-family: 'Montserrat';
+     padding-left: 30px;
+     border-radius: 4px;
+     font-weight: 600;
+     background:white;
+     color:black;
+     font-size: 20px;
+ }
+ 
+ .contact-right textarea{
+      
+     width: 500px;
+     border:none;
+     height: 100px;
+     font-weight: 500;
+     padding: 25px;
+     border-radius: 4px;
+     background:whitesmoke;
+     color:black;
+     font-size: 20px;
+ }
+
+ .contact-submit{
+
+     font-size: 1.7rem;
+     color: white;
+     padding: 5px;
+     height: 50px;
+     border: 3px solid white;
+     width: 170px;
+     cursor: pointer;
+     border-radius: 70px;
+     background-image: linear-gradient(90deg, rgba(90,140,168,1) 0%, rgba(137,207,244,1) 52%, rgba(91,150,181,1) 100%);
+     transition: 0.4s;
+
+ }
+
+ .contact-submit:hover{
+      
+     box-shadow: 0 0 20px #aad8eb;
+     transform: scale(1.1);
+ }
+
+ #contact{
+      
+     display: flex;
+     gap: 20px;
+ }
+
+
+
+ #contact:hover{
+      
+      transform: scale(1.1);
+ }
+
+ .conatct-icon{
+   
+     display: flex;
+     gap: 20px;
+     cursor: pointer;
+     position: static;
+     height: 42px;
+     transition: 0.3s;
+     width: 45px;
+     margin-left: 10px;
+     margin-top: 40px;
+   }
+   
+   .conatct-icon img:hover{
+   
+    transform: scale(1.3);
+    
+   }
+   
+ 
+
+
+ @media (min-width:769px){
+      
+      .conatct-icon{
+           
+          display: none;
+      }
+ }
+
+
+
+
+ @media (max-width:768px){
+
+     .contact-title{
+           
+         display: none;
+          
+     }
+
+     .contact-right{
+           
+          display: none;
+    }
+
+
+     .contact-details{
+           
+          flex-direction: column;
+          margin-left: 20px;
+          width: 350px;
+          top: 100px;
+
+     }
+
+     .contact-left h1{
+          
+          font-size: 2.6rem;
+
+     }
+
+     .job-title{
+           
+          font-size: 1.3rem;
+     }
+
+     .contact-left-detail{
+           
+           font-size: 1.1rem;
+           margin-top: 20px;
+     }
+
+   
+    
+   
+     
+
+
+ }
+
